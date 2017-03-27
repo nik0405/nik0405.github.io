@@ -1,0 +1,31 @@
+<div class="login-container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control" placeholder="Customer Name" ng-model="ledger.name">
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="form-group">
+        <div class="input-group col-md-12">
+          <span class="input-group-addon" id="basic-addon1">$</span>
+          <input type="text" class="form-control" placeholder="Enter Ledger Balance" ng-model="ledger.balance">
+          <span class="input-group-addon">.00</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="form-group">
+        <div class="input-group col-md-12">
+          <span class="input-group-addon" id="basic-addon1">Address</span>
+          <input type="text" class="form-control" placeholder="Enter Ledger Balance" ng-model="ledger.address">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="form-group text-center">
+        <button class="btn btn-primary btn-md " ng-click="submit(ledger)">Enroll</button>
+      </div>
+    </div>
+  </div>

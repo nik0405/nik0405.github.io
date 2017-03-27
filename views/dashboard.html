@@ -1,0 +1,98 @@
+<div id="loader"></div>
+<div id="myDiv" class="container bg-container">
+    <div class="row">
+        <div class="col-md-3">
+            <h3>{{custName}}</h3>
+        </div>
+        <div class="col-md-9 text-center">
+            <h2>GLOBAL PAYMENTS POC</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="custom-box">
+                <div class="thumbnail">
+                    <span class="glyphicon glyphicon-user user-icon"></span>
+                    <img src="/images/india.gif" class="" />
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary" ng-click="checkBal(0)" style="width: 100%;">Balance Inquiry</button>
+                    <input class="form-control" type="text" ng-model="creditAmount.value[0]" placeholder="          $Credit Amount" style="width: 100%;margin-top:15px"/>
+                    <button class="btn btn-primary" ng-click="credit(0)" style="width: 100%;margin-top: 5px">Credit</button>
+                    <input class="form-control" type="text" ng-model="debitAmount.value[0]" placeholder="          $Debit Amount" style="width: 100%;margin-top:15px"/>
+                    <button class="btn btn-primary" ng-click="debit(0)" style="width: 100%;margin-top: 5px">Debit</button>
+                    <button class="btn btn-primary" ng-click="checkAddress(0)" style="width: 100%;margin-top: 15px">Check Address</button>
+                    <input class="form-control" type="text" ng-model="address[0]" placeholder="Update Address" style="width: 100%;margin-top:15px"/>
+                    <button class="btn btn-primary" ng-click="updateAddress(0)" style="width: 100%;margin-top: 5px">Update</button>
+                </div>
+                <div class="alert alert-info">
+                    <strong>   {{result[0]}}</strong>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="custom-box">
+                <div class="thumbnail">
+                    <span class="glyphicon glyphicon-user user-icon"></span>
+                    <img src="/images/us.gif" class="" />
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary" ng-click="checkBal(1)" style="width: 100%;">Balance Inquiry</button>
+                    <input class="form-control" type="text" ng-model="creditAmount.value[1]" placeholder="          $Credit Amount" style="width: 100%;margin-top:15px"/>
+                    <button class="btn btn-primary" ng-click="credit(1)" style="width: 100%;margin-top: 5px">Credit</button>
+                    <input class="form-control" type="text" ng-model="debitAmount.value[1]" placeholder="          $Debit Amount" style="width: 100%;margin-top:15px"/>
+                    <button class="btn btn-primary" ng-click="debit(1)" style="width: 100%;margin-top: 5px">Debit</button>
+                     <button class="btn btn-primary" ng-click="checkAddress(1)" style="width: 100%;margin-top: 15px">Check Address</button>
+                     <input class="form-control" type="text" ng-model="address[1]" placeholder="Update Address" style="width: 100%;margin-top:15px"/>
+                    <button class="btn btn-primary" ng-click="updateAddress(1)" style="width: 100%;margin-top: 5px">Update</button>
+                </div>
+                <div class="alert alert-info">
+                    <strong>   {{result[1]}}</strong>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="custom-box">
+                <div class="thumbnail">
+                    <span class="glyphicon glyphicon-user user-icon"></span>
+                    <img src="/images/china.gif" class="" />
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary" ng-click="checkBal(2)" style="width: 100%;">Balance Inquiry</button>
+                    <input class="form-control" type="text" ng-model="creditAmount.value[2]" placeholder="          $Credit Amount" style="width: 100%;margin-top:15px"/>
+                    <button class="btn btn-primary" ng-click="credit(2)" style="width: 100%;margin-top: 5px">Credit</button>
+                    <input class="form-control" type="text" ng-model="debitAmount.value[2]" placeholder="          $Debit Amount" style="width: 100%;margin-top:15px"/>
+                    <button class="btn btn-primary" ng-click="debit(2)" style="width: 100%;margin-top: 5px">Debit</button>
+                     <button class="btn btn-primary" ng-click="checkAddress(2)" style="width: 100%;margin-top: 15px">Check Address</button>
+                     <input class="form-control" type="text" ng-model="address[2]" placeholder="Update Address" style="width: 100%;margin-top:15px"/>
+                    <button class="btn btn-primary" ng-click="updateAddress(2)" style="width: 100%;margin-top: 5px">Update</button>
+                </div>
+                <div class="alert alert-info">
+                    <strong>   {{result[2]}}</strong>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="custom-box">
+                <div class="thumbnail">
+                    <span class="glyphicon glyphicon-user user-icon"></span>
+                    <img src="/images/spain.gif" class="" />
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary" ng-click="checkBal(3)" style="width: 100%;">Balance Inquiry</button>
+                    <input class="form-control" type="text" ng-model="creditAmount.value[3]" placeholder="          $Credit Amount" style="width: 100%;margin-top:15px"/>
+                    <button class="btn btn-primary" ng-click="credit(3)" style="width: 100%;margin-top: 5px">Credit</button>
+                    <input class="form-control" type="text" ng-model="debitAmount.value[3]" placeholder="          $Debit Amount" style="width: 100%;margin-top:15px"/>
+                    <button class="btn btn-primary" ng-click="debit(3)" style="width: 100%;margin-top: 5px">Debit</button>
+                     <button class="btn btn-primary" ng-click="checkAddress(3)" style="width: 100%;margin-top: 15px">Check Address</button>
+                     <input class="form-control" type="text" ng-model="address[3]" placeholder="Update Address" style="width: 100%;margin-top:15px"/>
+                    <button class="btn btn-primary" ng-click="updateAddress(3)" style="width: 100%;margin-top: 5px">Update</button>
+                </div>
+                <div class="alert alert-info">
+                    <strong>  {{result[3]}}</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
