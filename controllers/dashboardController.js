@@ -81,19 +81,19 @@ app.controller('dashboardController', function ($scope, $http,$timeout) {
         var url;
         switch (peer) {
             case 0:
-                url = 'https://df061a1073b9424b8bc40a991f01f792-vp0.us.blockchain.ibm.com:5002';
+                url = 'http://f48a4804199c419aa3641b46e94e2dac-vp0.us.blockchain.ibm.com:5003';
                 $scope.querySpec.params.secureContext = "user_type1_" + peer;
                 break;
             case 1:
-                url = 'https://df061a1073b9424b8bc40a991f01f792-vp1.us.blockchain.ibm.com:5002';
+                url = 'http://f48a4804199c419aa3641b46e94e2dac-vp1.us.blockchain.ibm.com:5003';
                 $scope.querySpec.params.secureContext = "user_type1_" + peer;
                 break;
             case 2:
-                url = 'https://df061a1073b9424b8bc40a991f01f792-vp2.us.blockchain.ibm.com:5002';
+                url = 'http://f48a4804199c419aa3641b46e94e2dac-vp2.us.blockchain.ibm.com:5003';
                 $scope.querySpec.params.secureContext = "user_type1_" + peer;
                 break;
             case 3:
-                url = 'https://df061a1073b9424b8bc40a991f01f792-vp3.us.blockchain.ibm.com:5002';
+                url = 'http://f48a4804199c419aa3641b46e94e2dac-vp3.us.blockchain.ibm.com:5003';
                 $scope.querySpec.params.secureContext = "user_type1_" + peer;
                 break;
 
@@ -116,19 +116,19 @@ app.controller('dashboardController', function ($scope, $http,$timeout) {
         var url;
          switch (peer) {
             case 0:
-                url = 'https://df061a1073b9424b8bc40a991f01f792-vp0.us.blockchain.ibm.com:5002';
+                url = 'http://f48a4804199c419aa3641b46e94e2dac-vp0.us.blockchain.ibm.com:5003';
                 $scope.creditInvoke.params.secureContext = "user_type1_" + peer;
                 break;
             case 1:
-                url = 'https://df061a1073b9424b8bc40a991f01f792-vp1.us.blockchain.ibm.com:5002';
+                url = 'http://f48a4804199c419aa3641b46e94e2dac-vp1.us.blockchain.ibm.com:5003';
                 $scope.creditInvoke.params.secureContext = "user_type1_" + peer;
                 break;
             case 2:
-                url = 'https://df061a1073b9424b8bc40a991f01f792-vp2.us.blockchain.ibm.com:5002';
+                url = 'http://f48a4804199c419aa3641b46e94e2dac-vp2.us.blockchain.ibm.com:5003';
                 $scope.creditInvoke.params.secureContext = "user_type1_" + peer;
                 break;
             case 3:
-                url = 'https://df061a1073b9424b8bc40a991f01f792-vp3.us.blockchain.ibm.com:5002';
+                url = 'http://f48a4804199c419aa3641b46e94e2dac-vp3.us.blockchain.ibm.com:5003';
                 $scope.creditInvoke.params.secureContext = "user_type1_" + peer;
                 break;
 
@@ -151,19 +151,19 @@ app.controller('dashboardController', function ($scope, $http,$timeout) {
         var url;
         switch (peer) {
             case 0:
-                url = 'https://df061a1073b9424b8bc40a991f01f792-vp0.us.blockchain.ibm.com:5002';
+                url = 'http://f48a4804199c419aa3641b46e94e2dac-vp0.us.blockchain.ibm.com:5003';
                 $scope.debitInvoke.params.secureContext = "user_type1_" + peer;
                 break;
             case 1:
-                url = 'https://df061a1073b9424b8bc40a991f01f792-vp1.us.blockchain.ibm.com:5002';
+                url = 'http://f48a4804199c419aa3641b46e94e2dac-vp1.us.blockchain.ibm.com:5003';
                 $scope.debitInvoke.params.secureContext = "user_type1_" + peer;
                 break;
             case 2:
-                url = 'https://df061a1073b9424b8bc40a991f01f792-vp2.us.blockchain.ibm.com:5002';
+                url = 'http://f48a4804199c419aa3641b46e94e2dac-vp2.us.blockchain.ibm.com:5003';
                 $scope.debitInvoke.params.secureContext = "user_type1_" + peer;
                 break;
             case 3:
-                url = 'https://df061a1073b9424b8bc40a991f01f792-vp3.us.blockchain.ibm.com:5002';
+                url = 'http://f48a4804199c419aa3641b46e94e2dac-vp3.us.blockchain.ibm.com:5003';
                 $scope.debitInvoke.params.secureContext = "user_type1_" + peer;
                 break;
 
@@ -187,19 +187,19 @@ app.controller('dashboardController', function ($scope, $http,$timeout) {
         var url;
         switch (peer) {
             case 0:
-                url = 'https://df061a1073b9424b8bc40a991f01f792-vp0.us.blockchain.ibm.com:5002';
+                url = 'http://f48a4804199c419aa3641b46e94e2dac-vp0.us.blockchain.ibm.com:5003';
                 $scope.querySpec.params.secureContext = "user_type1_" + peer;
                 break;
             case 1:
-                url = 'https://df061a1073b9424b8bc40a991f01f792-vp1.us.blockchain.ibm.com:5002';
+                url = 'http://f48a4804199c419aa3641b46e94e2dac-vp1.us.blockchain.ibm.com:5003';
                 $scope.querySpec.params.secureContext = "user_type1_" + peer;
                 break;
             case 2:
-                url = 'https://df061a1073b9424b8bc40a991f01f792-vp2.us.blockchain.ibm.com:5002';
+                url = 'http://f48a4804199c419aa3641b46e94e2dac-vp2.us.blockchain.ibm.com:5003';
                 $scope.querySpec.params.secureContext = "user_type1_" + peer;
                 break;
             case 3:
-                url = 'https://df061a1073b9424b8bc40a991f01f792-vp3.us.blockchain.ibm.com:5002';
+                url = 'http://f48a4804199c419aa3641b46e94e2dac-vp3.us.blockchain.ibm.com:5003';
                 $scope.querySpec.params.secureContext = "user_type1_" + peer;
                 break;
 
@@ -223,19 +223,19 @@ app.controller('dashboardController', function ($scope, $http,$timeout) {
         var url;
          switch (peer) {
             case 0:
-                url = 'https://df061a1073b9424b8bc40a991f01f792-vp0.us.blockchain.ibm.com:5002';
+                url = 'http://f48a4804199c419aa3641b46e94e2dac-vp0.us.blockchain.ibm.com:5003';
                 $scope.updateAddressInvoke.params.secureContext = "user_type1_" + peer;
                 break;
             case 1:
-                url = 'https://df061a1073b9424b8bc40a991f01f792-vp1.us.blockchain.ibm.com:5002';
+                url = 'http://f48a4804199c419aa3641b46e94e2dac-vp1.us.blockchain.ibm.com:5003';
                 $scope.updateAddressInvoke.params.secureContext = "user_type1_" + peer;
                 break;
             case 2:
-                url = 'https://df061a1073b9424b8bc40a991f01f792-vp2.us.blockchain.ibm.com:5002';
+                url = 'http://f48a4804199c419aa3641b46e94e2dac-vp2.us.blockchain.ibm.com:5003';
                 $scope.updateAddressInvoke.params.secureContext = "user_type1_" + peer;
                 break;
             case 3:
-                url = 'https://df061a1073b9424b8bc40a991f01f792-vp3.us.blockchain.ibm.com:5002';
+                url = 'http://f48a4804199c419aa3641b46e94e2dac-vp3.us.blockchain.ibm.com:5003';
                 $scope.updateAddressInvoke.params.secureContext = "user_type1_" + peer;
                 break;
 

@@ -1,26 +1,26 @@
 app.controller('enrollController', function ($scope, $http, $q) {
-    $scope.url = [
-        "https://df061a1073b9424b8bc40a991f01f792-vp0.us.blockchain.ibm.com:5002",
-        "https://df061a1073b9424b8bc40a991f01f792-vp1.us.blockchain.ibm.com:5002",
-        "https://df061a1073b9424b8bc40a991f01f792-vp2.us.blockchain.ibm.com:5002",
-        "https://df061a1073b9424b8bc40a991f01f792-vp3.us.blockchain.ibm.com:5002"
+   $scope.url = [
+        "http://f48a4804199c419aa3641b46e94e2dac-vp0.us.blockchain.ibm.com:5003",
+        "http://f48a4804199c419aa3641b46e94e2dac-vp1.us.blockchain.ibm.com:5003",
+        "http://f48a4804199c419aa3641b46e94e2dac-vp2.us.blockchain.ibm.com:5003",
+        "http://f48a4804199c419aa3641b46e94e2dac-vp3.us.blockchain.ibm.com:5003"
     ]
     //Change the users whenever a new service is created , take from newtwork credentals.
     $scope.users = [{
             "enrollId": "user_type1_0",
-            "enrollSecret": "054f5029ce"
+            "enrollSecret": "a45f638b3b"
         },
         {
             "enrollId": "user_type1_1",
-            "enrollSecret": "82677e189c"
+            "enrollSecret": "7163169e79"
         },
         {
             "enrollId": "user_type1_2",
-            "enrollSecret": "de69a71467"
+            "enrollSecret": "77b83b83cd"
         },
         {
             "enrollId": "user_type1_3",
-            "enrollSecret": "3921812ae2"
+            "enrollSecret": "455f83b694"
         }
     ]
 
