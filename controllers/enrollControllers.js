@@ -1,9 +1,9 @@
 app.controller('enrollController', function ($scope, $http, $q) {
    $scope.url = [
-        "http://f48a4804199c419aa3641b46e94e2dac-vp0.us.blockchain.ibm.com:5003",
-        "http://f48a4804199c419aa3641b46e94e2dac-vp1.us.blockchain.ibm.com:5003",
-        "http://f48a4804199c419aa3641b46e94e2dac-vp2.us.blockchain.ibm.com:5003",
-        "http://f48a4804199c419aa3641b46e94e2dac-vp3.us.blockchain.ibm.com:5003"
+        "https://f48a4804199c419aa3641b46e94e2dac-vp0.us.blockchain.ibm.com:5003",
+        "https://f48a4804199c419aa3641b46e94e2dac-vp1.us.blockchain.ibm.com:5003",
+        "https://f48a4804199c419aa3641b46e94e2dac-vp2.us.blockchain.ibm.com:5003",
+        "https://f48a4804199c419aa3641b46e94e2dac-vp3.us.blockchain.ibm.com:5003"
     ]
     //Change the users whenever a new service is created , take from newtwork credentals.
     $scope.users = [{
