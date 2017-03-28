@@ -19,7 +19,7 @@ app.controller('ledgerController', function ($scope, $http) {
             },
             "id": 0
         }
-        $http.post(('https://f48a4804199c419aa3641b46e94e2dac-vp0.us.blockchain.ibm.com:5003/chaincode', $scope.deploySpec).then(function (response) {
+        $http.post('https://f48a4804199c419aa3641b46e94e2dac-vp0.us.blockchain.ibm.com:5003/chaincode', $scope.deploySpec).then(function (response) {
                 if(response.status===200){
                     window.localStorage.setItem("chaincodeid",response.data.result.message)
                     window.localStorage.setItem("custName",data.name)
