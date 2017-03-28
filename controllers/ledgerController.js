@@ -28,7 +28,7 @@ app.controller('ledgerController', function ($scope, $http) {
                 return response;
             }, function (response) {
                 return response.status
-            });
+            }));
 
     }
 });
